@@ -19,11 +19,16 @@ body {
   margin-bottom: 27px;
 }
 
-.div_input {
+.center {
   display: flex;
   justify-content: center;
+  margin-bottom: 35px;
+}
+
+.div_input {
   position: relative;
-  width: 100%;
+  width: 580px;
+  height: 45px;
 }
 
 .div_input i {
@@ -33,13 +38,13 @@ body {
 
 .search_icon {
   position: absolute;
-  left: 105px;
+  left: 20px;
   top: 15px;
 }
 
 .etc_icon {
   position: absolute;
-  right: 90px;
+  right: 5px;
   top: 15px;
 }
 
@@ -49,7 +54,10 @@ body {
   border-radius: 35px;
   width: 570px;
   height: 35px;
-  margin-bottom: 30px;
+}
+
+.div_input__text:hover {
+  box-shadow: 5px 5px 5px lightgrey;
 }
 
 .bottom {
@@ -62,6 +70,11 @@ body {
   border-style: none;
   background-color: #f8f9fa;
   border-radius: 6px;
+}
+
+.bottom__btn:hover {
+  border: 1px solid #cbcdd0;
+  box-shadow: 0px 1px 1px lightgrey;
 }
 
 .bottom__btn:last-child {
